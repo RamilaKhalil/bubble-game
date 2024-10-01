@@ -55,6 +55,9 @@ html,body{
     background-color: rgb(17, 14, 14);
     padding: 10px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #47eb15;
     gap: 10px;
     flex-wrap: wrap;
 }

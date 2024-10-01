@@ -25,7 +25,7 @@ var timerend  =setInterval(function(){
         clearInterval(timerend);
         alert("Time's up!");
         // @ts-ignore
-        document.querySelector(".panelbottom").innerHTML ="";
+        document.querySelector(".panelbottom").innerHTML =`<h1>GAME OVER<h1>`;
     }
     
     }, 1000);
@@ -65,7 +65,12 @@ document.querySelector(".panelbottom").addEventListener("click", function(det) {
    function victory() {
      alert("Congratulations! You've reached the victory point!");
      // @ts-ignore
-     document.querySelector(".panelbottom").innerHTML ="";
+     document.querySelector(".panelbottom").innerHTML = 
+     `<h1>you did it !<h1>
+     
+     <h1>Wait your cute punishment <-> <h1>`
+     ;
+
    }
 
 newhit();
